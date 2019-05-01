@@ -1,0 +1,44 @@
+
+table {
+  width: 100%;
+}
+
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+
+input {
+  width: 98%;
+}
+
+th, td {
+  padding: 10px;
+}
+
+
+tbody tr, td:hover {
+  background-color: #c6c6c6;
+}
+
+thead tr:hover {
+  background-color: blue;
+}
+
+
+tr:nth-child(3n+1) {
+  background-color: #a9a9a9;
+}
+
+th {
+  font-size: 14pt;
+  font-family: tahoma;
+  font-style: italic;
+  background-color: inherit;
+}
+
+body{
+    background-color: #6C7A89;
+}

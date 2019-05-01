@@ -1,0 +1,38 @@
+body{
+   margin: 0px;
+background-color: #6C7A89;
+
+}
+
+.container {
+         width: 100vw;
+         height: 110vh;
+         background: #6C7A89;
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+         align-items: center
+     }
+     .box {
+         width: 350px;
+         margin: 5px;
+         height: 70px;
+         background: #fff;
+    }
+    .box2{
+      width: 300px;
+    margin: 0px;
+      margin-top: -590PX;
+      margin-left: -379PX;
+      margin-right: 383PX;
+      height: 70px;
+      background: #fff;
+    }
+
+.box1{
+  width: 300px;
+  margin-top: -590PX;
+  margin-left: 100PX;
+  margin-right: -340PX;
+
+}
