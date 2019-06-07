@@ -14,9 +14,8 @@ function validar(campo, alerta, label) {
 
     // Adiciona erro ao label
     $(label).addClass("text-danger");
-    // No input
+    // No inpu
     $(campo).addClass("is-invalid");
-
     $(campo).val("");
     $(campo).focus();
     return false;

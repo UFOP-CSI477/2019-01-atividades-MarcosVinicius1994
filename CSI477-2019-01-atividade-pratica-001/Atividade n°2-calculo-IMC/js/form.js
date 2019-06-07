@@ -7,7 +7,7 @@ botaoAdicionar.addEventListener("click", function(event) {
 //Obtem paciente com os dados de entrada
   var paciente = obtemPacienteDoFormulario(form);
 
-//validação do paciente 
+//validação do paciente
   var erros = validaPaciente(paciente);
 
   if (erros.length > 0) {
