@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Calculo Escala  Richter</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="reset.css">
+  <link rel="stylesheet" type="text/css" href="index.css">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+  <body>
+    <header>
+  		<div class="container">
+  			<h2 class="titulo">Calculo Escala Richter</h2>
+  		</div>
+  	</header>
+
+    <div class="container">
+      <form name="dados"id="tabelaMag">
+
+        <div id="grupo1" class="form-group">
+          <label for="valor1" id="labelv1">Preencha o valor da amplitude(em milimetros):</label>
+          <input type="text" name="valor1" class="form-control">
+
+          <div id="alerta1" style="display: none" class="alert alert-danger" >
+            <span>Preencha o valor da amplitude corretamente!<span>
+          </div>
+
+        </div>
+
+        <div id="grupo2" class="form-group">
+          <label for="valor2" id="labelv2">Digite o valor do intervalo:</label>
+          <input type="text" name="valor2" class="form-control">
+
+          <div id="alerta2" style="display: none" class="alert alert-danger" >
+            <span>Preencha o do intervalo corretamente!<span>
+          </div>
+
+        </div>
+
+
+
+
+        <input type="text" name="resultado" id="resultado">
+
+        <button type="button" name="calculo" id="calculo" class="btn btn-primary">Calcular</button>
+
+      </form>
+    </div>
+
+
+    <div class="container1">
+
+
+      <button type="button" class="btn btn-info" id="botInfo">Informações</button>
+    </div>
+
+
+    <main class="exib_info">
+
+    	<div class="containerOrd">
+
+
+    		<table>
+    			<h3 class="center">Informações...</h3>
+    			<thead>
+    				<tr>
+    					<th>Magnitude Richter</th>
+              <th>Efeitos</th>
+
+
+    				</tr>
+    			</thead>
+    			<tbody id="inform_result">
+
+    			</tbody>
+    		</table>
+
+    	</div>
+    </main>
+
+    <script src="jquery-3.3.1.js"></script>
+    <script src="form.js"></script>
+
+  </body>
+</html>

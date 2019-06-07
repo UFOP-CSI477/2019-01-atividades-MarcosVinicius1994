@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Calculo IMC</title>
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+
+</head>
+<body>
+
+	<header>
+		<div class="container">
+			<h2 class="titulo">Calculo IMC</h2>
+		</div>
+	</header>
+	<main>
+		<section class="container">
+			<h2>Meus pacientes</h2>
+
+			<table>
+				<thead>
+					<tr>
+						<th>Nome</th>
+						<th>Peso(kg)</th>
+						<th>Altura(m)</th>
+						<th>ValorIMC</th>
+						<th>IntervaloIMC</th>
+						<th>Classificação</th>
+						<th>PesoIdeal</th>
+					</tr>
+				</thead>
+				<tbody id="tabela-pacientes">
+
+
+				</tbody>
+			</table>
+
+		</section>
+	</main>
+
+	<section class="container1">
+		<h2 id="titulo-form">Adicionar novo paciente</h2>
+		<ul id="mensagens-erro"></ul>
+		<form id="form-adiciona">
+			<div class="">
+				<label for="nome">Nome:</label>
+				<input id="nome" name="nome" type="text" placeholder="digite o nome do seu paciente" class="campo">
+			</div>
+			<div class="grupo">
+				<label for="peso">Peso:</label>
+				<input id="peso" name="peso" type="text" placeholder="digite o peso do seu paciente" class="campo campo-medio">
+			</div>
+			<div class="grupo">
+				<label for="altura">Altura:</label>
+				<input id="altura" name="altura" type="text" placeholder="digite a altura do seu paciente" class="campo campo-medio">
+			</div>
+
+			<button id="adicionar-paciente" class="botao bto-principal">Adicionar</button>
+		</form>
+	</section>
+
+	<script src="js/calcula-imc.js" ></script>
+	<script src="js/form.js" ></script>
+	<script src="js/remover-paciente.js" ></script>
+	<script src="js/filtra.js" ></script>
+	<script src="js/buscar-pacientes.js" ></script>
+
+</body>
+</html>
