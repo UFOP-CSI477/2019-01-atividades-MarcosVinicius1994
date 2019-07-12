@@ -13,12 +13,12 @@
     <div class="container-fluid">
 
       <ul class="nav navbar-nav">
-        <li class="active"><a href="/">Home</a></li>
+        <li class="active"><a href="{{ url('/home') }}">Home</a></li>
 
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        <li><a href="{{ route('login') }}"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="{{ route('register') }}"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
       </ul>
     </div>
   </nav>
@@ -65,16 +65,9 @@
         <a class="btn btn-primary col-mt-12" href="{{ route('procedures.create') }}" role="button">Inserir</a> --}}
         {{-- <a class="btn btn-primary" href="{{ route('procedures.edit', $procedure->id) }}" role="button">Editar</a> --}}
 
-
       </div>
 
-
-
-
-
       </tbody>
-
-
 
     <!-- Conteudo --parte central //-->
 

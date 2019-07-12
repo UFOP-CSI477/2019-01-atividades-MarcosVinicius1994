@@ -7,21 +7,19 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <nav class="navbar navbar-inverse">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#">LaboClin</a>
-        </div>
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Home</a></li>
+  <nav class="navbar navbar-inverse ">
+    <div class="container-fluid">
 
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#"><span class="glyphicon ">Atualizar meus dados</a></li>
-          <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Sair</a></li>
-        </ul>
-      </div>
-    </nav>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="{{ url('/home') }}">Home</a></li>
+
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="{{ route('login') }}"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="{{ route('register') }}"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </nav>
 
     <div class="btn-group btn-group-justified">
       <a class="btn btn-primary">Formulario para adicionar procedimento</a>
