@@ -13,7 +13,7 @@ class PaginasController extends Controller
 
 public function MostrarPad(){
 
-  $procedure = Procedure::all();
+  $procedure = Procedure::orderBy('name')->get();
 
   return view('procedures.MostrarAoUsuario')
        ->with('procedures',$procedure);

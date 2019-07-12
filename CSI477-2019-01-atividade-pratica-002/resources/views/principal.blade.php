@@ -42,7 +42,7 @@
 
                                <div class="">
                                  <a href="/Paciente" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Area geral</a>
-                                  <a href="/operador"class="btn btn-primary btn-lg active"role="button" aria-pressed="true">Area Operador</button></a>
+                                  <a href="/operador"class="btn btn-primary btn-lg active"role="button" aria-pressed="true">Area Paciente</button></a>
                                   <a href="/adm"class="btn btn-primary btn-lg active"role="button" aria-pressed="true">Area Administrador</button></a>
                               </div>
 

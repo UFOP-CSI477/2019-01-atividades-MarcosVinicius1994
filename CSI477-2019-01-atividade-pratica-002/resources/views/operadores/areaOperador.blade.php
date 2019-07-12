@@ -7,6 +7,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
   <nav class="navbar navbar-inverse ">
     <div class="container-fluid">
 
@@ -24,25 +26,20 @@
 
 </head>
 <body>
-  <div class="container">
-<div class="table-responsive">
-
-  <h1>Usuario administrador</h1>
-
-</div>
-
-<div class="btn-group col-md-12" role="group" aria-label="Exemplo básico ">
-  <a class="btn btn-primary col-md-12" href="{{route('procedures.index')}}" role="button">Editar Procedimento</a>
-  <a class="btn btn-primary col-md-12" href="{{route('users.index')}}" role="button">Editar Paciente</a>
-  <a class="btn btn-primary col-md-12" href="{{route('tests.index')}}" role="button">Editar Teste</a>
-  {{-- <a class="btn btn-primary col-md-12" href="{{route('tests.index')}}" role="button">Editar testes</a> --}}
-  {{-- <a class="btn btn-primary" href="{{route('procedures.index')}}" role="button">Editar Procedimento</a>Editar usuario</a> --}}
-</div>
 
 
 
-    @yield('conteudo')
+  <div class="col-md-12">
+    <ul class="nav nav-tabs">
 
 
-</body>
-</html>
+                               <div class="">
+                                 <a href="/users/create" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Novo paciente</a>
+                                  <a href="/tests/create"class="btn btn-primary btn-lg active"role="button" aria-pressed="true">Solicitação de exames</button></a>
+                                  <a href=""class="btn btn-primary btn-lg active"role="button" aria-pressed="true">Lista de exames solicitados</button></a>
+                              </div>
+
+    </div>
+
+    </body>
+    </html>

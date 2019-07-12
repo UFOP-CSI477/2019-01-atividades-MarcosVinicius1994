@@ -22,7 +22,7 @@
       </ul>
     </div>
   </nav>
-  
+
 </head>
 <body>
 
@@ -40,7 +40,7 @@
 
       <div class="">
         <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Area geral</a>
-         <a href=""class="btn btn-primary btn-lg active"role="button" aria-pressed="true">Area Geral</button></a>
+         <a href="/operador"class="btn btn-primary btn-lg active"role="button" aria-pressed="true">Area Paciente</button></a>
          <a href="/adm"class="btn btn-primary btn-lg active"role="button" aria-pressed="true">Area Administrador</button></a>
      </div>
 
@@ -67,8 +67,8 @@
     <table class="table">
       <thead>
         <tr>
-          <th>Código</th>
           <th>Nome</th>
+          <th>Código</th>
           <th>Preço</th>
           <th>Data de criação</th>
           <th>Data de atualização</th>
@@ -78,8 +78,8 @@
       <tbody>
         @foreach ($procedures as $e)
           <tr>
+            <td>{{ $e->name}}</td>
             <td>{{ $e->id }}</td>
-            <td>{{  $e->name}}</td>
             <td>{{ $e->price }}</td>
             <td>{{ $e->created_at }}</td>
             <td>{{ $e->update_at }}</td>

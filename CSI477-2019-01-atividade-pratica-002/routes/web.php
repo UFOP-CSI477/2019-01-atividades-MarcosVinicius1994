@@ -18,7 +18,7 @@ Route::resource('/tests', 'TestController');
 Route::resource('/users', 'UserController');
 Route::resource('/operador','OperadorController');
 Route::get('/adm', 'UserController@DadosADM');
-Route::get('/Paciente', 'PaginasController@Exames_Proce');
+Route::get('/Paciente', 'PaginasController@MostrarPad');
 
 Route::get('/ExcluirProc','ProcedureController@destroy');
 

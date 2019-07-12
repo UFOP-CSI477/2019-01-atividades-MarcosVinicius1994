@@ -13,9 +13,9 @@ class OperadorController extends Controller
      */
     public function index()
     {
-      $procedures = Procedure::all();
-      return view('operadores.index')
-              ->with('procedures', $procedures);
+
+      return view('operadores.areaOperador');
+
     }
 
     /**
