@@ -10,4 +10,9 @@ class Test extends Model
 
 
   protected $fillable = ['id','user_id','procedure_id','date',];
+
+  public function ProceduresTest() {
+  return $this->belongTo('App\Procedure');
+  }
+
 }

@@ -1,0 +1,13 @@
+Considerações:
+
+Ola Fernando, Tudo bem??
+Neste documento farei algumas considerações em relação a implementação dos trabalhos.
+Tive bastante dificuldade no início para acompanhar o andamento da materia e creio eu que o fato de os frameworks e também a arquitetura MVC possuirem grandes funcinalidades, isso me proporcionou a ter de pesquisar muito enquanto desenvolvia as aplicações. Creio eu que isso foi importante para meu crscimento!! Queria agradecer a você pelas ajudas e duvidas tiradas durante o período. Desde já, muito obrigado e boas ferias.
+
+
+Tecnologias usadas durante as implementações(Prova, atividade PHP e Trabalho prático):
+
+*Laravel
+*MySQL 5.7.19
+*PHP 7.3.5
+*O Google Chrome Versão 75.0.3770.100 (Versão oficial) 64 bits

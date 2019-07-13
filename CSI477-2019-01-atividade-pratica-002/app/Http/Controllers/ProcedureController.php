@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 use App\Procedure;
+use App\Test;
 use Illuminate\Http\Request;
 use\ Illuminate\Support\Facades\Auth;
 

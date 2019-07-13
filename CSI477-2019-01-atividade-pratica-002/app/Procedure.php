@@ -11,4 +11,9 @@ class Procedure extends Model
 
   protected $fillable = ['id','user_id','name','price',];
 
+
+public function Testprocedure() {
+return $this->hasMany('App\Test');
+}
+
 }
